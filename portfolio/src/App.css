@@ -3,10 +3,15 @@
 @tailwind utilities;
 
 header ul li{
-  @apply px-10;
+  @apply px-4;
 }
 
 .bg
 {
   background-color: black;
+}
+
+.navmob
+{
+  @apply fixed top-2  bg-gray-400 text-white w-full h-1/2 justify-evenly py-4 my-4 rounded-xl;
 }

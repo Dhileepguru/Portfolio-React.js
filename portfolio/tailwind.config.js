@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {},
-    fontFamily:'Foldit',
+    fontFamily:{'content-style':'Foldit'},
   },
   plugins: [],
 }

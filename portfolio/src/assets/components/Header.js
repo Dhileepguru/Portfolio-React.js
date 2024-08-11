@@ -17,8 +17,8 @@ function Header()
             <li><a href="#">Contact</a></li>
         </ul>
         </nav>
-        {ToggleMenu &&<nav className='block md:hidden'>
-        <ul className='flex flex-col navmob'>
+        {ToggleMenu &&<nav className='block md:hidden mx-5'>
+        <ul className='flex flex-col navmob '>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Projects</a></li>
@@ -26,7 +26,7 @@ function Header()
             <li><a href="#">Contact</a></li>
         </ul>
         </nav>}
-        <button /*Toggle click event and above nav {} */onClick={()=>setToggleMenu(!ToggleMenu)}className='block md:hidden'><Bars3Icon className='text-white h-5'/></button>
+        <button /*Toggle click event and above nav {} */onClick={()=>setToggleMenu(!ToggleMenu)}className='block md:hidden mx-3'><Bars3Icon className='text-white h-5'/></button>
         
     </header>
     

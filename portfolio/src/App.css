@@ -18,3 +18,6 @@ header ul li{
 .navmobb li{
   @apply border-b-2 h-full;
 }
+*{
+  background: #000;
+}

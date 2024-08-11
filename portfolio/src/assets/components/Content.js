@@ -2,6 +2,7 @@ import React from 'react';
 import Profile from "../images/profile.png"
 import { AiOutlineLinkedin, AiOutlineGithub} from "react-icons/ai";
 import { FaMedium } from "react-icons/fa6";
+import { MdMailOutline } from "react-icons/md";
 function Content()
 {
     return(
@@ -10,9 +11,10 @@ function Content()
         <h1 className='hidden md:block content  py-40 mx-40 text-6xl '>Hi ,<br/>I'm Dhileep D
             <p className='text-2xl py-2 px-1'>I'm a Software Developer</p>
             <div className='py-3 flex  '>
-            <a href='#' className='py-5'><AiOutlineLinkedin/></a>
-            <a href='#' className='py-5 ml-4'><AiOutlineGithub/></a>
-            <a href='#' className='py-5 ml-4'><FaMedium/></a>
+            <a href='https://www.linkedin.com/in/dhileepguru/' className='py-5'><AiOutlineLinkedin/></a>
+            <a href='https://github.com/Dhileepguru' className='py-5 ml-4'><AiOutlineGithub/></a>
+            <a href='https://medium.com/@dhileepguru497' className='py-5 ml-4'><FaMedium/></a>
+            <a href='mailto:dhileepguru497@gmail.com' className='py-5 ml-4'><MdMailOutline/></a>
             </div>
          </h1>
         </div>
@@ -22,8 +24,9 @@ function Content()
             <p className='text-sm mt-1 py-2 px-0 '>I'm a Software Developer</p>
             <div className='py-1 flex   '>
             <a href='https://www.linkedin.com/in/dhileepguru/' className='py-5 ml-end'><AiOutlineLinkedin/></a>
-            <a href='#' className='py-5 ml-4'><AiOutlineGithub/></a>
-            <a href='#' className='py-5 ml-4'><FaMedium/></a>
+            <a href='https://github.com/Dhileepguru' className='py-5 ml-4'><AiOutlineGithub/></a>
+            <a href='https://medium.com/@dhileepguru497' className='py-5 ml-4'><FaMedium/></a>
+            <a href='mailto:dhileepguru497@gmail.com' className='py-5 ml-4'><MdMailOutline/></a>
             </div>
             
             </h1>

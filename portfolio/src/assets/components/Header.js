@@ -17,8 +17,8 @@ function Header()
             <li><a href="#">Contact</a></li>
         </ul>
         </nav>
-        {ToggleMenu &&<nav className='block md:hidden mx-5'>
-        <ul className='flex flex-col navmob '>
+        {ToggleMenu &&<nav className='block md:hidden mx-5 '>
+        <ul className='flex flex-col navmob'>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Projects</a></li>

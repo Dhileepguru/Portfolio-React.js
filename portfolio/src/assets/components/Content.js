@@ -8,7 +8,7 @@ function Content()
     return(
         <section  id='content'className="bg-black text-gray-100 flex flex-col md:flex-row px-5 md:py-32 justify-center content-style">
         <div className='w-1/2 flex  flex-col'>
-        <h1 className='hidden md:block content  py-40 mx-40 text-6xl '>Hi ,<br/>I'm Dhileep D
+        <h1 className='hidden md:block content text-gray-300 py-40 mx-40 text-6xl '>Hi ,<br/>I'm Dhileep D
             <p className='text-2xl py-2 px-1'>I'm a Software Developer</p>
             <div className='py-3 flex  '>
             <a href='https://www.linkedin.com/in/dhileepguru/' className='py-5'><AiOutlineLinkedin/></a>

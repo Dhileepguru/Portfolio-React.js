@@ -12,9 +12,9 @@ function Blogs()
             <img  className='flex w-2/4 px-5'src={blog1}></img>
             <img  className='flex w-2/4 px-5'src={blog2}></img>
          </div>
-         <div className='bg-black text-white font-medium flex flex-row justify-center'>
-            <a className='flex w-2/4 wi mt-10' href="https://medium.com/@dhileepguru497/the-art-of-order-a-personal-journey-41069f5d74e3">The Art of Order</a>
-            <a className='mt-10' href="https://medium.com/@dhileepguru497/top-10-inspiring-websites-1a06af217600">Ten Inspired Websites</a>
+         <div className='bg-black text-gray-300font-medium flex flex-row justify-center'>
+            <a className='flex w-2/4 wi text-gray-300 mt-10' href="https://medium.com/@dhileepguru497/the-art-of-order-a-personal-journey-41069f5d74e3">The Art of Order</a>
+            <a className='mt-10 text-gray-300' href="https://medium.com/@dhileepguru497/top-10-inspiring-websites-1a06af217600">Ten Inspired Websites</a>
          </div>
      </section>  
     )

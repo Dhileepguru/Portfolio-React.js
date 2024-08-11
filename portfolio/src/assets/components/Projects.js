@@ -13,8 +13,8 @@ function Projects()
             <img  className='flex w-2/4 px-5'src={Project2}></img>
          </div>
          <div className='bg-black text-white font-medium flex flex-row justify-center'>
-            <a className='flex w-2/4  mt-10' href="https://www.linkedin.com/posts/dhileepguru_project-taxinvoice-responsive-activity-7219716985012527104-7S_7?utm_source=share&utm_medium=member_desktop">Tax Generator</a>
-            <a className='mt-10' href="https://dhileepguru.github.io/E-commerce-clone/#">Nike E-commerce</a>
+            <a className='flex w-2/4 text-gray-300  mt-10' href="https://www.linkedin.com/posts/dhileepguru_project-taxinvoice-responsive-activity-7219716985012527104-7S_7?utm_source=share&utm_medium=member_desktop">Tax Generator</a>
+            <a className='mt-10 text-gray-300' href="https://dhileepguru.github.io/E-commerce-clone/#">Nike E-commerce</a>
          </div>
      </section>   
     )

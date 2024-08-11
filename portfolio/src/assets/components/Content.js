@@ -21,7 +21,7 @@ function Content()
             <h1 className=' block md:hidden content mt-7  py-10 mx-4 text-xl flex flex-col '>Hi ,<br/>I'm Dhileep D
             <p className='text-sm mt-1 py-2 px-0 '>I'm a Software Developer</p>
             <div className='py-1 flex   '>
-            <a href='#' className='py-5 ml-end'><AiOutlineLinkedin/></a>
+            <a href='https://www.linkedin.com/in/dhileepguru/' className='py-5 ml-end'><AiOutlineLinkedin/></a>
             <a href='#' className='py-5 ml-4'><AiOutlineGithub/></a>
             <a href='#' className='py-5 ml-4'><FaMedium/></a>
             </div>

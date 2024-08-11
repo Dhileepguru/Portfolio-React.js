@@ -13,7 +13,7 @@ header ul li{
 
 .navmob
 {
-  @apply fixed top-2  bg-gray-200 text-white w-full h-1/2 justify-evenly py-4 my-4 rounded-xl;
+  @apply fixed top-2  bg-white text-black  w-full h-1/2 justify-evenly py-4 my-4 rounded-xl;
 }
 .navmobb li{
   @apply border-b-2 h-full;

@@ -6,7 +6,7 @@ function Header()
    const[ToggleMenu,setToggleMenu]=useState(false)/*toggle event*/
     return(
     
-    <header className='flex justify-between px-4 bg  text-gray-300 '>
+    <header className='flex justify-between px-4 bg  text-gray-300  border-red-50'>
         <a className='font-bold' href="#">D Dhileep</a>
         <nav className='hidden md:block'>
         <ul className='flex '>

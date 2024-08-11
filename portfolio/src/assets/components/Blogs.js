@@ -4,7 +4,7 @@ import blog2 from '../images/blog2.jpeg';
 function Blogs()
 {
     return(
-        <section className='bg-black pt-10 text-white'>
+        <section className='bg-black pt-10 text-white' id='blogs'>
          <div className='text-center font-medium p text-7xl pt-10'>
           BLOGS
          </div>

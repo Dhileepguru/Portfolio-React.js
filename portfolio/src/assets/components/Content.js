@@ -6,7 +6,7 @@ import { MdMailOutline } from "react-icons/md";
 function Content()
 {
     return(
-        <section className="bg-black text-gray-100 flex flex-col md:flex-row px-5 md:py-32 justify-center content-style">
+        <section  id='content'className="bg-black text-gray-100 flex flex-col md:flex-row px-5 md:py-32 justify-center content-style">
         <div className='w-1/2 flex  flex-col'>
         <h1 className='hidden md:block content  py-40 mx-40 text-6xl '>Hi ,<br/>I'm Dhileep D
             <p className='text-2xl py-2 px-1'>I'm a Software Developer</p>
@@ -18,7 +18,7 @@ function Content()
             </div>
          </h1>
         </div>
-        <div className='md:hidden flex'>
+        <div id='content' className='md:hidden flex'>
         <img className=' mt-10 size-1/2 md:block md:w-full h-1/2 rounded-full ml-end  border-4 border-gray-100 ' src={Profile}></img>
             <h1 className=' block md:hidden content mt-7  py-10 mx-4 text-xl flex flex-col '>Hi ,<br/>I'm Dhileep D
             <p className='text-sm mt-1 py-2 px-0 '>I'm a Software Developer</p>

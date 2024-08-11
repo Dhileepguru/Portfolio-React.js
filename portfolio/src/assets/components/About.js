@@ -4,7 +4,7 @@ function About()
 {
     return(
         <>
-        <section className=' hidden md:block  bg-black  text-red-50 '>
+        <section className=' hidden md:block  bg-black  text-red-50 ' id='about'>
             <div className=''>
             <h1 className='text-center font-medium text-7xl'>ABOUT ME</h1>
             </div>

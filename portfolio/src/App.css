@@ -21,3 +21,6 @@ header ul li{
 *{
   background: #000;
 }
+html{
+  scroll-behavior: smooth;
+}

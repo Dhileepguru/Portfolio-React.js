@@ -4,7 +4,7 @@ import Project2 from "../images/project2.jpeg"
 function Projects()
 {
     return(
-     <section className='bg-black text-white'>
+     <section  id='projects'className='bg-black text-white'>
          <div className='text-center font-medium text-7xl pt-10'>
           PROJECTS
          </div>

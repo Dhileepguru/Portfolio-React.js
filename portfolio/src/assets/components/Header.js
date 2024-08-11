@@ -11,21 +11,19 @@ function Header()
         <nav className='hidden md:block'>
         <ul className='flex my-2 font-mono  px-10 text-xl justify-end '>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         </nav>
         {ToggleMenu &&<nav className='block md:hidden mx-5 '>
         <ul className='flex flex-col navmob'>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         </nav>}
         <button /*Toggle click event and above nav {} */onClick={()=>setToggleMenu(!ToggleMenu)}className='block md:hidden mx-3'><Bars3Icon className='text-white h-5'/></button>
